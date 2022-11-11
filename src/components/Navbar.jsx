@@ -1,6 +1,5 @@
 import { Search, ShoppingCartOutlined } from "@mui/icons-material";
 import { Badge } from "@mui/material";
-import React from "react";
 import styled from "styled-components";
 
 const Navbar = () => {
@@ -16,7 +15,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Shopify</Logo>
+          <Logo>Shop The Cart</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>

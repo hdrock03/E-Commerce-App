@@ -89,7 +89,7 @@ width: 100vw;
 height: 100vh;
 display: flex;
 align-items: center;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 background-color: #${props => props.bg}; // # diye h suruat me taki props.bg ka jo color h wo hexcode me change ho jaye
 `;
 

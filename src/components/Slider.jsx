@@ -1,7 +1,9 @@
 import styled from "styled-components"
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@mui/icons-material";
 import { useState } from "react";
-import { sliderItems } from "../data";
+import { sliderItems } from "../data"; 
+import {mobile} from '../responsive'
+
 
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0)
@@ -49,6 +51,7 @@ display: flex;
 background-color: #FFF;
 position: relative;
 overflow:hidden; // isse ek viewport se jyada nh dikhega mtlb horizontal me jo scrolling rhta h usko hata dega
+${mobile({display: 'none'})}
 `;
 
 const Arrow= styled.div`
@@ -112,6 +115,7 @@ padding: 50px;
 
 const Title = styled.h1`
   font-size: 70px;
+  /* ${mobile({fontSize: '20px'})} */
 `;
 
 const Desc = styled.p`
